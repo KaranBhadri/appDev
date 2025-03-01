@@ -19,7 +19,7 @@ with st.expander('**DATA**'):
 
 with st.expander('**VISUALIZATIONS**'):
   st.write('**By Island**')
-  st.scatter_plot(data=df, x='bill_depth_mm', y='body_mass_g', color='island')
+  st.scatter_chart(data=df, x='bill_depth_mm', y='body_mass_g', color='island')
   st.write('**By Species**')
-  st.scatter_plot(data=df, x='bill_depth_mm', y='body_mass_g', color='species')
+  st.scatter_chart(data=df, x='bill_depth_mm', y='body_mass_g', color='species')
 
