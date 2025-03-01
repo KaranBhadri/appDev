@@ -17,5 +17,6 @@ with st.expander('**DATA**'):
   Y = df.species
   Y
 
-
+with st.expander('**VISUALIZATIONS**'):
+  st.scatter_plot(df, X=species, y=body_mass_g)
 
